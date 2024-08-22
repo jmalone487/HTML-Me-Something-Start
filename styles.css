@@ -1,56 +1,46 @@
 /* Write your CSS here! */
-/* Element selector to style the body */
+/* Element Selector */
 body {
     margin: 8px;
     display: block;
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
 }
 
-/* ID selector to style the main heading */
+/* ID Selector */
 #mainHeading {
     color: red;
-    font-size: 2.5em;
+    font-size: 24px;
+    /* Additional styling */
     text-align: center;
-    text-shadow: 2px 2px 5px #000;
+    /* Additional styling */
 }
 
-/* ID selector for the paragraph */
-#testP {
-    font-weight: bold;
-}
-
-/* Class selector for styling the paragraph */
+/* Class Selector */
 .funParagraph {
     color: green;
     font-style: italic;
-    line-height: 1.6;
+    /* Additional styling */
+    line-height: 1.5;
+    /* Additional styling */
+}
+
+/* Additional CSS for other elements */
+article {
     margin-bottom: 20px;
 }
 
-/* Styling the articles */
-article {
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 15px;
-    margin: 20px 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Style all images */
 img {
     max-width: 100%;
     height: auto;
-    border-radius: 10px;
     display: block;
-    margin: 10px auto;
+    margin: 0 auto;
 }
 
-/* Footer styling */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 footer {
     text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-    border-radius: 10px;
+    margin-top: 20px;
 }
